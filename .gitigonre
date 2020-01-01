@@ -3,7 +3,7 @@
 *.DS_Store
 logs
 .vscode
-*dist
+dist
 *__pycache__
-dbm_agent.egg-info
-*build
+mdparser.egg-info
+build
