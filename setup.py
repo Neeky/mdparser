@@ -28,8 +28,6 @@ def get_version():
 
 version = get_version()
 
-print(__file__)
-
 setup(name='mdparser',
       version=version,
       description='mdparser',
@@ -40,8 +38,8 @@ setup(name='mdparser',
       scripts=['bin/mdparser'],
       packages=['mdparser'],
       #package_data={'mdparser': ['static/cnfs/*']},
-      url='https://github.com/Neeky/dbm-agent',
-      install_requires=['mysql-connector-python==8.0.18', ],
+      url='https://github.com/Neeky/dmparser',
+      install_requires=['mysql-connector-python==8.0.18', 'markdown==3.1.1'],
       python_requires='>=3.6.*',
       classifiers=[
            'Development Status :: 4 - Beta',
